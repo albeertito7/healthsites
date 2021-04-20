@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="80dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/what_gender_are_you"
+        android:textSize="30sp"
+        android:textColor="@color/GreenHealth"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/feel_free_to_choose_even_you_can_use_the_custom_option"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="fill_horizontal"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/radio_btn_male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/GreenHealth"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/sign_up_male"
+            android:layout_marginBottom="10dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Grey"
+            android:layout_marginBottom="10dp" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/radio_btn_female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up_female"
+            android:textSize="20sp"
+            android:textColor="@color/GreenHealth"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Grey"
+            android:layout_marginBottom="10dp" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/radio_btn_custom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/custom"
+            android:textColor="@color/GreenHealth"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/signup_layout_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_marginBottom="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/signup_input_custom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enter_your_gender"
+            android:maxLines="1"
+            android:lines="1"
+            android:textColor="@android:color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/next"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="15dp"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="top"
+        android:textAllCaps="false"
+        android:alpha="0.3"
+        android:enabled="false" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/providing_your_gender_helps_us_to_improve_our_application_experience"
+        android:gravity="center_horizontal"
+        android:textSize="16sp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

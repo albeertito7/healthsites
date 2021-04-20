@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/account"
+        android:icon="@drawable/icon_outline_lock">
+
+        <EditTextPreference
+            android:id="@+id/change_username"
+            android:title="@string/change_username"
+            android:key="change_username"
+            android:summary="@string/preference_change_username_summary"
+            android:hint="enter new username"
+            android:maxLines="1"/>
+
+        <EditTextPreference
+            android:id="@+id/modify_password"
+            android:title="@string/change_email"
+            android:key="change_email"
+            android:summary="@string/modify_email"
+            android:hint="enter new email"
+            android:maxLines="1"/>
+
+        <EditTextPreference
+            android:id="@+id/change_password"
+            android:key="change_password"
+            android:title="@string/change_password"
+            android:hint="enter new password"
+            android:summary="@string/modify_password"
+            android:maxLines="1"/>
+
+        <Preference
+            android:key="pref_log_out"
+            android:icon="@drawable/icon_outline_exit"
+            android:title="@string/log_out"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/configuration"
+        android:icon="@drawable/icon_filled_config">
+        <ListPreference
+            android:key="pref_language"
+            android:title="@string/language"
+            android:defaultValue=""
+            android:summary="@string/preference_language_summary"
+            android:entries="@array/pref_language_entries"
+            android:entryValues="@array/pref_language_values">
+        </ListPreference>
+
+        <CheckBoxPreference
+            android:key="prefs_session"
+            android:title="@string/keep_me_logged"
+            android:summary="@string/preference_keep_me_logged"
+            android:defaultValue="true">
+        </CheckBoxPreference>
+
+        <SwitchPreferenceCompat
+            android:key="pref_feedback"
+            android:title="@string/send_feedback"
+            android:summary="@string/preference_send_feedback_summary"
+            android:defaultValue="false">
+
+        </SwitchPreferenceCompat>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/support"
+        android:icon="@drawable/icon_outline_mail">
+
+        <Preference
+            android:key="pref_contact"
+            android:title="@string/contact_us"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="About">
+
+        <Preference
+            android:key="pref_website"
+            android:title="@string/website"
+            android:summary="@string/preference_website_summary"/>
+
+        <Preference
+            android:key="pref_privacy_policy"
+            android:title="@string/privacy_policy" />
+    </PreferenceCategory>
+</PreferenceScreen>

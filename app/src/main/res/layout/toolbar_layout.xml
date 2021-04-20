@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.MaterialToolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/custom_toolbar"
+    android:id="@+id/custom_toolbar_top"
+    app:title="HealthSites"
+    app:titleTextAppearance="@style/MyToolBar"
+    app:titleTextColor="@android:color/black">
+
+</com.google.android.material.appbar.MaterialToolbar>

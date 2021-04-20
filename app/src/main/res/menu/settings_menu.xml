@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android2="http://schemas.android.com/apk/res-auto">
+    <!--<item
+        android:id="@+id/LatePost"
+        android:title="Posts" />
+    <item
+        android:id="@+id/myHealthSites"
+        android:title="@string/myhealthsites" />-->
+    <!--<item
+        android:id="@+id/editProfile"
+        android:title="Edit Profile" />-->
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        android:icon="@drawable/icon_filled_settings"
+        android2:showAsAction="always"/>
+    <!--<item
+        android:id="@+id/stats"
+        android:title="Stadistics" />-->
+    <!--<item
+        android:id="@+id/help"
+        android:title="@string/help" />
+    <item
+        android:id="@+id/log_out"
+        android:title="Log Out"
+        android:icon="@drawable/icon_exit_app" />-->
+</menu>

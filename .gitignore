@@ -1,0 +1,33 @@
+
+# Gradle files
+.gradle
+/build
+/local.properties
+
+# Android Studio
+captures/
+.externalNativeBuild
+.cxx
+
+# Intellij
+*.iml
+.idea
+/.vs
+/.vscode
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Built Android application files
+*.apk
+
+# Google Services (ex. API and Firebase)
+google-services.json
+GoogleService-Info.pllist
+google_maps_api.xml
+
+# OS X
+.DS_Store

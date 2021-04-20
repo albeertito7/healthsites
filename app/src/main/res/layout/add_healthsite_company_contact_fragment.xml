@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="50dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/contact_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/company_contact"
+        android:textSize="30sp"
+        android:textColor="@color/colorGreenDark"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/contact_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help_others_to_find_you_in_multiple_ways"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/contact_title"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/add_layout_website"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:focusedByDefault="true"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@id/contact_subtitle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/add_input_website"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/website"
+            android:inputType="textWebEditText"
+            android:focusedByDefault="true"
+            android:maxLines="1"
+            android:maxLength="240"
+            android:lines="1"
+            android:textColor="@android:color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/add_layout_webmail"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:focusedByDefault="true"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/add_layout_website">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/add_input_webmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/web_mail"
+            android:inputType="textWebEmailAddress"
+            android:focusedByDefault="true"
+            android:maxLines="1"
+            android:maxLength="240"
+            android:lines="1"
+            android:textColor="@android:color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/add_layout_phone"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:focusedByDefault="true"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/add_layout_webmail">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/add_input_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:focusedByDefault="true"
+            android:maxLines="1"
+            android:maxLength="240"
+            android:lines="1"
+            android:textColor="@android:color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next_add_company_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/next"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="top"
+        android:textAllCaps="false"
+        android:enabled="false"
+        android:alpha="0.3"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@id/add_layout_phone"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

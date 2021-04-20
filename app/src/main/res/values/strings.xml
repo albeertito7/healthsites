@@ -1,0 +1,312 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">HealthSites</string>
+
+    <!-- ScreenHeroActivityHero Layout -->
+    <string name="title_textView">Tap the screen</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_log_in">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_log_in">Log In</string>
+    <string name="action_sign_in_short">Log in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- SignUp buttonLogin -->
+    <string name="registerAccount">Sign up</string>
+    <string name="question">Don\'t have an account?</string>
+
+    <!-- Activity Names Strings -->
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_healthsites">My HealthSites</string>
+
+    <!-- Strings SignUp -->
+    <string name="sign_up_nickname">NickName</string>
+    <string name="sign_up_name">Name</string>
+    <string name="sign_up_email">Email</string>
+    <string name="sign_up_password">Password</string>
+    <string name="sign_up_male">Male</string>
+    <string name="sign_up_female">Female</string>
+    <string name="sign_up_gender">Gender:</string>
+    <string name="sign_up_age">Age</string>
+    <string name="sign_up_terms"><![CDATA[By signing up, you agree to our\n Terms & Privacy Policy.]]></string>
+    <string name="editprofile_terms"><![CDATA[By updating profile, you agree to our\nTerms & Privacy Policy.]]></string>
+
+    <!-- Strings Settings -->
+    <string name="settings">Settings</string>
+    <string name="myhealthsites">My HealthSites</string>
+    <string name="refresh_map">Refresh Map</string>
+    <string name="connection_lost">Lost connection</string>
+    <string name="reconnected_wifi">Wi-Fi reconnected.</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Permissions Strings -->
+    <string name="permission_rationale_location">Access to the location service is required.</string>
+    <string name="location_permission_denied">This app requires location permission. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings.</string>
+    <string name="permission_required_toast">Permission is required.</string>
+    <string name="permission_rationale_camera">Access to the camera service is required.</string>
+    <string name="camera_permission_denied">This app requires camera permission to get a new profile picture. Please try again and grant access to use the camera.\nIf the permission has been permanently denied, it can be enabled from the System Settings.</string>
+
+
+
+    <!-- UiSettings Strings -->
+    <string name="map_not_ready">Map is not ready yet</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="sign_up_ownername">Owner Name</string>
+    <string name="sign_up_companyCIF">Company CIF</string>
+    <string name="sign_up_address">HealthSite Address</string>
+    <string name="pickplace">Pick a Place</string>
+    <string name="selectimage">Select Image</string>
+
+    <string name="detail_text">Place id: %1$s\nName: %2$s\nAddress: %3$s\nPhone: %4$s\n\n%5$s</string>
+    <string name="incorrect_place_resultcode">ResultCode Incorrect on SelectPlace</string>
+    <string name="post">Post</string>
+    <string name="user_interaction_cancelled">User intereaction was cancelled. Ops!</string>
+    <string name="settings_inadequate">Location settings are inadequate</string>
+    <string name="place_picked">Place Picked</string>
+    <string name="sign_up_description_post">Post Description</string>
+    <string name="help">Help</string>
+    <string name="register">Register</string>
+    <string name="msg_token_fmt">token message</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_email">Change Email</string>
+    <string name="modify_email">Modify your email</string>
+    <string name="modify_password">Modify your password</string>
+    <string name="title_post">Title</string>
+    <string name="join_our_community">Join our Community</string>
+    <string name="join_us">Join Us</string>
+    <string name="moreInfo_terms_policy"><![CDATA[For more information take a look at our\nTerms & Privacy Policy]]></string>
+
+    <string-array name="pref_theme_entries">
+        <item>Light</item>
+        <item>DarK</item>
+    </string-array>
+
+    <string-array name="pref_theme_values">
+        <item>light</item>
+        <item>darK</item>
+    </string-array>
+
+    <string-array name="pref_map_style_entries">
+        <item>Default</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="pref_map_style_values">
+        <item>default</item>
+        <item>dark</item>
+    </string-array>
+
+    <string-array name="pref_map_view_entries">
+        <item>Normal</item>
+        <item>Satellite</item>
+        <item>Hybrid</item>
+        <item>Terrain</item>
+    </string-array>
+
+    <string-array name="pref_map_view_values">
+        <item>normal</item>
+        <item>satellite</item>
+        <item>hybrid</item>
+        <item>terrain</item>
+    </string-array>
+
+    <string-array name="pref_language_entries" >
+        <item>English</item>
+        <item>Spanish</item>
+        <item>Catalan</item>
+        <item>From my device</item>
+    </string-array>
+
+    <string-array name="pref_language_values" >
+        <item>en</item>
+        <item>es</item>
+        <item>ca</item>
+        <item />
+    </string-array>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="registering">Registering</string>
+    <string name="go_back">Go Back</string>
+    <string name="followers">Followers</string>
+    <string name="posts">Posts</string>
+    <string name="follow">Follow</string>
+    <string name="properties">Properties</string>
+    <string name="contact">Contact</string>
+    <string name="signing_up">Signing up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="company_data">Company Data</string>
+    <string name="this_will_help_us_to_verify_the_site">This will help us to verify the site</string>
+    <string name="company_name">Company Name</string>
+    <string name="company_cif">Company CIF</string>
+    <string name="next">Next</string>
+    <string name="new_healthsite">New HealthSite</string>
+    <string name="we_need_your_help_to_build_our_database_of_healthsites">We need your help to build our database of healthsites</string>
+    <string name="get_started">Get Started</string>
+    <string name="company_contact">Company Contact</string>
+    <string name="help_others_to_find_you_in_multiple_ways">Help others to find you in multiple ways</string>
+    <string name="website">Website</string>
+    <string name="web_mail">Web mail</string>
+    <string name="phone_number">Phone number</string>
+    <string name="healthsite_data">HealthSite Data</string>
+    <string name="name">Name</string>
+    <string name="slogan">Slogan</string>
+    <string name="healthsite_definition">HealthSite Definition</string>
+    <string name="is_a_place_where_i_can_buy_food_and_or_drinks">Is a place where I can buy food and/or drinks?</string>
+    <string name="store">Store</string>
+    <string name="is_a_place_where_i_can_eat">Is a place where I can eat?</string>
+    <string name="restaurant_food_service">Restaurant / Food service</string>
+    <string name="this_categories_will_help_us_to_categorize_nthe_site_according_its_services">This categories will help us to categorize\nthe site according its services</string>
+    <string name="add_a_place_and_a_representative_image">Add a place and a representative image</string>
+    <string name="we_recommend_to_pick_the_company_logo_nto_assure_the_site_more_recognition">We recommend to pick the company logo,\nto assure the site more recognition</string>
+    <string name="healthsite_properties">HealthSite Properties</string>
+    <string name="vegan">Vegan</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="ecologic">Ecologic</string>
+    <string name="free_gluten">Free Gluten</string>
+    <string name="free_lactose">Free Lactose</string>
+    <string name="select_the_properties_that_will_define_the_site_attributes_nfor_instance_the_site_has_vegan_offerings">Select the properties that will define the site attributes.\nFor instance, the site has \'vegan\' offerings</string>
+    <string name="finishing_the_register">Finishing the register</string>
+    <string name="thank_you_for_believing_in_this_project">Thank you for believing in this project</string>
+    <string name="address">Address</string>
+    <string name="websiteCap">WebSite</string>
+    <string name="webmail">WebMail</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="custom">Custom</string>
+    <string name="enter_your_gender">Enter your gender</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="change_location">Change Location</string>
+    <string name="select">Select</string>
+    <string name="type_your_comment">Type your comment</string>
+    <string name="enter_your_surname">Enter your surname</string>
+    <string name="use_the_map_to_pick_a_location_where_is_supposed_to_be_your_healthsite">Use the map to pick a location, where is supposed to be your healthsite.</string>
+    <string name="when_s_your_birthday">When\'s your birthday?</string>
+    <string name="providing_your_date_of_birth_helps_us_to_improve_nthe_application_experience">Providing your date of birth helps us to improve\nthe application experience</string>
+    <string name="what_s_your_email_address">What\'s your email address?</string>
+    <string name="enter_your_email_address_to_connect_with_your_account">Enter your email address to connect with your account</string>
+    <string name="without_gluten">Without Gluten</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="verified">Verified</string>
+    <string name="first_name">First name</string>
+    <string name="surname">Surname</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="gender">Gender</string>
+    <string name="what_gender_are_you">What gender are you?</string>
+    <string name="feel_free_to_choose_even_you_can_use_the_custom_option">Feel free to choose, even you can use the custom option</string>
+    <string name="providing_your_gender_helps_us_to_improve_our_application_experience">Providing your gender helps us to improve our application experience</string>
+    <string name="join_healthsites">Join HealthSites</string>
+    <string name="we_ll_help_you_create_an_account_in_a_few_easy_steps">We\'ll help you create an account in a few easy steps.</string>
+    <string name="following">Following</string>
+    <string name="what_s_your_name">What\'s your name?</string>
+    <string name="using_your_real_name_makes_it_easier_for_others_nto_recognise_you">Using your real name makes it easier for others\nto recognise you</string>
+    <string name="create_a_password">Create a password</string>
+    <string name="enter_a_combination_of_at_least_six_numers_or_letters">Enter a combination of at least six numers or letters</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="for_more_security_add_capital_letters_numbers_punctuation_marks_or_enter_a_frase">For more security, add capital letters, numbers, punctuation marks, or enter a frase</string>
+    <string name="finishing_signing_up">Finishing signing up</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_a_username">Create a username</string>
+    <string name="this_will_be_how_other_users_will_see_you">This will be how other users will see you</string>
+    <string name="username">Username</string>
+    <string name="update_your_email">Update your email</string>
+    <string name="cancel">cancel</string>
+    <string name="ok">ok</string>
+    <string name="email_invalid">Email invalid</string>
+    <string name="update_your_male">Update your gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="update_your_name">Update your name</string>
+    <string name="how_was_your_experience">How was your experience?</string>
+    <string name="choose_to_continue">Choose to continue</string>
+    <string name="profile">Profile</string>
+    <string name="update_gender_failure">Update gender failure</string>
+    <string name="profile_data_load_failure">Profile data load failure</string>
+    <string name="username_already_taken">Username already taken</string>
+    <string name="healthsite_register_ok">HealthSite Register OK</string>
+    <string name="healthsite_register_ko">HealthSite Register KO</string>
+    <string name="healthsite_image_upload_ok">HealthSite Image Upload OK</string>
+    <string name="healthsite_image_upload_ko">HealthSite Image Upload Ko</string>
+    <string name="restaurant_and_store"><![CDATA[Restaurant & Store]]></string>
+    <string name="use_this_location">Use this location?</string>
+    <string name="recovery_email_send_succesfully">Recovery email send succesfully</string>
+    <string name="recovery_email_send_failed">Recovery email send failed</string>
+    <string name="options">Options</string>
+    <string name="choose_method">Choose method</string>
+    <string name="authentication_failed">Authentication failed</string>
+    <string name="user_interaction_was_cancelled">User interaction was cancelled</string>
+    <string name="update_username_failure">Update username failure</string>
+    <string name="update_name_failure">Update name failure</string>
+    <string name="update_surname_failure">Update surname failure</string>
+    <string name="update_email_failure">Update email failure</string>
+    <string name="uploaded_photo_successfully">Uploaded photo successfully</string>
+    <string name="uploaded_photo_failure">Uploaded photo failure</string>
+    <string name="map_options">Map Options</string>
+    <string name="place_picker">Place Picker</string>
+    <string name="latlong">latlong</string>
+    <string name="check_your_connection">Check your connection</string>
+    <string name="user_register_ok">User Registration OK</string>
+    <string name="user_register_ko">User Registration KO</string>
+    <string name="sending_email">Sending email</string>
+    <string name="recover_password">Recover Password</string>
+    <string name="enter_your_email_and_we_will_send_you_a_reset_one">Enter your email and we will send you a reset one</string>
+    <string name="send">Send</string>
+    <string name="or">- or -</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="logging">Logging</string>
+    <string name="forgotten_password">Forgotten Password?</string>
+    <string name="filters">Filters</string>
+    <string name="language">Language</string>
+    <string name="preference_language_summary">There are two ways of changing the app\'s language. Using this inner app preference, or by your mobile device language</string>
+    <string name="keep_me_logged">Keep me logged in</string>
+    <string name="preference_keep_me_logged">if enabled will mantain you logged in when you quit the app.</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="preference_send_feedback_summary">Helps us improve our application an its user experience by sending anonymous data, always transparent for you</string>
+    <string name="preference_website_summary">To get more information visit healthsites.info</string>
+    <string name="log_out">Log out</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="change_username">Change username</string>
+    <string name="preference_change_username_summary">Modify your username</string>
+    <string name="share">Share</string>
+    <string name="preference_share_summary">Let other people know about this site</string>
+    <string name="report">Report</string>
+    <string name="preference_report_summary">Send us a notification to report this site, if you consider it\'s inadequate</string>
+    <string name="map_style">Map style</string>
+    <string name="preference_map_style_summary">Set your default style for your map</string>
+    <string name="map_view">Map view</string>
+    <string name="preference_map_view_summmary">Set your default view for your map</string>
+    <string name="hide_my_location_button">Hide My Location Button</string>
+    <string name="preference_hide_my_location_button_summary">Hide my location button on the top right</string>
+    <string name="show_zoom_controls">Show zoom controls</string>
+    <string name="preference_show_zoom_controls_summary">Set visible the zoom controls</string>
+    <string name="enable_location_updates">Enable location updates</string>
+    <string name="preference_enable_location_updates">The camera will follow you through the map</string>
+    <string name="customization">Customization</string>
+    <string name="credentials">Credentials</string>
+    <string name="configuration">Configuration</string>
+    <string name="search">Search</string>
+    <string name="account">Account</string>
+    <string name="thank_you_for_your_feedback">Thank you for your feedback</string>
+    <string name="your_message">Your message</string>
+    <string name="we_would_love_to_hear_what_s_working_nand_how_we_can_do_better">We would love to hear what\'s working\nand how we can do better</string>
+    <string name="how_are_we_doing">How are we doing?</string>
+    <string name="contact_us">Contact us</string>
+    <string name="support">Support</string>
+    <string name="intro_filters">On this screen you can select the properties you are interested in without filtering them on the map. For example, if you only want to add the restaurants to the respective card. If you want to continue, then reward the corresponding one. This way the map will show you the most popular restaurants.</string>
+    <string name="intro_myhealthsites">Here you can quickly access the profile of the HealthSites you follow. Seven will show a list and you will have a search engine at your disposal.</string>
+    <string name="intro_profile">This will be your profile where you can consult and modify your data. You will also have a menu of settings on the top right of your account and other general parameters of the application.</string>
+</resources>

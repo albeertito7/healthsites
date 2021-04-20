@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorGreen">#00D52E</color>
+    <color name="colorGreenDark">#00A523</color>
+    <color name="colorPrimary">#009933</color>
+    <color name="colorPrimaryDark">#00581d</color>
+    <color name="colorAccent">#878787</color>
+    <!--            HealthSites App Colors         -->
+    <color name="GreenHealth">#009933</color>
+    <color name="LogInButton">#00a642</color><!-- #99009933 -->
+    <color name="AppleRed">#FF3333</color>
+    <color name="Bread">#CC9900</color>
+    <color name="White">#FFFFFF</color>
+    <color name="AppleRedBlack">#CC3333</color>
+    <color name="BreadBlack">#996600</color>
+    <color name="Grey">#c9c9c8</color>
+    <color name="GreenHealth_opacity">#00a843</color>
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/customization"
+        android:icon="@drawable/icon_outline_edit_attributes"
+        android:iconSpaceReserved="true">
+
+        <ListPreference
+            android:key="pref_map_style"
+            android:title="@string/map_style"
+            android:summary="@string/preference_map_style_summary"
+            android:defaultValue="default"
+            android:entries="@array/pref_map_style_entries"
+            android:entryValues="@array/pref_map_style_values">
+        </ListPreference>
+
+        <ListPreference
+            android:key="pref_map_view"
+            android:title="@string/map_view"
+            android:summary="@string/preference_map_view_summmary"
+            android:defaultValue="normal"
+            android:entries="@array/pref_map_view_entries"
+            android:entryValues="@array/pref_map_view_values">
+        </ListPreference>
+
+        <SwitchPreferenceCompat
+            android:key="pref_myLocationButton"
+            android:title="@string/hide_my_location_button"
+            android:summary="@string/preference_hide_my_location_button_summary"
+            android:defaultValue="false">
+
+        </SwitchPreferenceCompat>
+
+        <SwitchPreferenceCompat
+            android:key="pref_compass"
+            android:title="Hide compass"
+            android:summary="Hide compass, otherwise it will be visible when it requires"
+            android:defaultValue="false">
+        </SwitchPreferenceCompat>
+
+        <SwitchPreferenceCompat
+            android:key="pref_zoomControls"
+            android:title="@string/show_zoom_controls"
+            android:summary="@string/preference_show_zoom_controls_summary"
+            android:defaultValue="false">
+
+        </SwitchPreferenceCompat>
+
+        <SwitchPreferenceCompat
+            android:key="pref_gestures"
+            android:title="Disable Gestures"
+            android:summary="Disable all gestures is not recommended."
+            android:defaultValue="false">
+
+        </SwitchPreferenceCompat>
+
+
+        <SwitchPreferenceCompat
+            android:key="pref_locationUpdates"
+            android:title="@string/enable_location_updates"
+            android:summary="@string/preference_enable_location_updates"
+            android:defaultValue="false">
+
+        </SwitchPreferenceCompat>
+    </PreferenceCategory>
+
+</PreferenceScreen>

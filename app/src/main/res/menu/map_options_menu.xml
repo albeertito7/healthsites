@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android2="http://schemas.android.com/apk/res-auto">
+    <!--<item
+        android:id="@+id/LatePost"
+        android:title="Posts" />
+    <item
+        android:id="@+id/myHealthSites"
+        android:title="@string/myhealthsites" />-->
+    <!--<item
+        android:id="@+id/editProfile"
+        android:title="Edit Profile" />-->
+    <item
+        android:id="@+id/searchable"
+        android:title="Search"
+        android:icon="@drawable/icon_search"
+        android2:showAsAction="ifRoom|collapseActionView"
+        android2:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+    <item
+        android:id="@+id/map_options"
+        android:title="Map Options"
+        android:icon="@drawable/icon_options_menu"
+        android2:showAsAction="always"/>
+    <!--<item
+        android:id="@+id/stats"
+        android:title="Stadistics" />-->
+    <!--<item
+        android:id="@+id/help"
+        android:title="@string/help" />
+    <item
+        android:id="@+id/log_out"
+        android:title="Log Out"
+        android:icon="@drawable/icon_exit_app" />-->
+</menu>

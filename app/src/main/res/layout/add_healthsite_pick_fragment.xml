@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="50dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/pick_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/healthsite_data"
+        android:textSize="30sp"
+        android:textColor="@color/colorGreenDark"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/pick_subtitle"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_a_place_and_a_representative_image"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/pick_title"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/pick_layout_btns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@id/pick_subtitle">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_add_pickplace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pickplace"
+            android:textAllCaps="false"
+            android:background="#F3F0F0"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_add_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selectimage"
+            android:textColor="@color/colorAccent"
+            android:background="#F3F0F0"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:padding="15dp"
+            android:onClick="onClickSelectImageButton"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next_add_healhtsite_pick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/next"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="top"
+        android:textAllCaps="false"
+        android:enabled="false"
+        android:alpha="0.3"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@id/pick_layout_btns"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/we_recommend_to_pick_the_company_logo_nto_assure_the_site_more_recognition"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/btn_next_add_healhtsite_pick"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

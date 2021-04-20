@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/healthsite_data"
+        android:textSize="30sp"
+        android:textColor="@color/colorGreenDark"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="30dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/add_layout_name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:focusedByDefault="true"
+        android:layout_marginBottom="8dp" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/add_input_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:focusedByDefault="true"
+            android:maxLines="1"
+            android:lines="1"
+            android:maxLength="200"
+            android:textColor="@android:color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/add_layout_description"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:focusedByDefault="true"
+        android:layout_marginBottom="20dp" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/add_input_description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/slogan"
+            android:inputType="text"
+            android:focusedByDefault="true"
+            android:maxLines="1"
+            android:maxLength="200"
+            android:lines="1"
+            android:textColor="@android:color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next_add_healhtsite_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/next"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="top"
+        android:textAllCaps="false"
+        android:enabled="false"
+        android:alpha="0.3" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

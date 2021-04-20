@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="80dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/when_s_your_birthday"
+        android:textSize="30sp"
+        android:textColor="@color/GreenHealth"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="30dp"/>
+
+    <DatePicker
+        android:id="@+id/signup_datepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:layout_marginBottom="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next_datepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/next"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="15dp"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:layout_gravity="top"
+        android:textAllCaps="false"
+        android:enabled="false"
+        android:alpha="0.3" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/providing_your_date_of_birth_helps_us_to_improve_nthe_application_experience"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        android:layout_marginBottom="15dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

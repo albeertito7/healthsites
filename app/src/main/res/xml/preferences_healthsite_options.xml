@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!--<Preference
+            android:key="pref_details"
+            android:title="Details"
+            android:icon="@drawable/icon_outline_details"
+            android:summary="See more information"
+            android:defaultValue="default">
+        </Preference>-->
+
+        <Preference
+            android:key="pref_share"
+            android:title="@string/share"
+            android:icon="@drawable/icon_filled_share"
+            android:summary="@string/preference_share_summary"
+            android:defaultValue="default">
+        </Preference>
+
+        <Preference
+            android:key="pref_report"
+            android:title="@string/report"
+            android:icon="@drawable/icon_outline_report"
+            android:summary="@string/preference_report_summary"
+            android:defaultValue="default">
+        </Preference>
+
+</PreferenceScreen>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="80dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_healthsite"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorGreenDark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/we_need_your_help_to_build_our_database_of_healthsites"
+        android:textSize="16sp"
+        android:layout_marginBottom="25dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_add_get_started"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/get_started"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:layout_marginBottom="15dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/add_terms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/moreInfo_terms_policy"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_gravity="center" />
+</androidx.appcompat.widget.LinearLayoutCompat>

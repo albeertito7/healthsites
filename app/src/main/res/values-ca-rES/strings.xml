@@ -1,0 +1,309 @@
+<resources>
+    <string name="app_name">HealthSites</string>
+
+    <!-- ScreenHeroActivityHero Layout -->
+    <string name="title_textView">Toca la pantalla</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_log_in">Email</string>
+    <string name="prompt_password">Contrasenya</string>
+    <string name="action_log_in">Entrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">Aquesta direcció d\'email no és vàlida</string>
+    <string name="error_invalid_password">Aquesta contrasenya és massa curta</string>
+    <string name="error_incorrect_password">Aquesta contrasenya és incorrecta</string>
+    <string name="error_field_required">Aquest camp és obligatori</string>
+    <string name="permission_rationale">"Els permisos dels contactes són necessaris per completar els emails".
+    </string>
+
+    <!-- SignUp buttonLogin -->
+    <string name="registerAccount">Inscriu-te</string>
+    <string name="question">No tens un compte?</string>
+
+    <!-- Activity Names Strings -->
+    <string name="title_activity_map">Mapa</string>
+    <string name="title_activity_healthsites">Les Meves HealthSites</string>
+
+    <!-- Strings SignUp -->
+    <string name="sign_up_nickname">NickName</string>
+    <string name="sign_up_name">Nom</string>
+    <string name="sign_up_email">Email</string>
+    <string name="sign_up_password">Contrasenya</string>
+    <string name="sign_up_male">Home</string>
+    <string name="sign_up_female">Dona</string>
+    <string name="sign_up_gender">Gènere:</string>
+    <string name="sign_up_age">Edad</string>
+    <string name="sign_up_terms"><![CDATA[By signing up, you agree to our\n Terms & Privacy Policy.]]></string>
+    <string name="editprofile_terms"><![CDATA[By updating profile, you agree to our\nTerms & Privacy Policy.]]></string>
+
+    <!-- Strings Settings -->
+    <string name="settings">Ajustaments</string>
+    <string name="myhealthsites">Les Meves HealthSites</string>
+    <string name="refresh_map">Refresca el Mapa</string>
+    <string name="connection_lost">Connexió perduda</string>
+    <string name="reconnected_wifi">Wi-Fi reconnectat.</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Ajustos</string>
+
+    <!-- Permissions Strings -->
+    <string name="permission_rationale_location">Access to the location service is required.</string>
+    <string name="location_permission_denied">This app requires location permission. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings.</string>
+    <string name="permission_required_toast">Permission is required.</string>
+    <string name="permission_rationale_camera">Access to the camera service is required.</string>
+    <string name="camera_permission_denied">This app requires camera permission to get a new profile picture. Please try again and grant access to use the camera.\nIf the permission has been permanently denied, it can be enabled from the System Settings.</string>
+
+
+
+    <!-- UiSettings Strings -->
+    <string name="map_not_ready">Map is not ready yet</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="sign_up_ownername">Owner Name</string>
+    <string name="sign_up_companyCIF">Company CIF</string>
+    <string name="sign_up_address">HealthSite Address</string>
+    <string name="pickplace">Tria un lloc</string>
+    <string name="selectimage">Seleccionar Imatge</string>
+
+    <string name="detail_text">Place id: %1$s\nName: %2$s\nAddress: %3$s\nPhone: %4$s\n\n%5$s</string>
+    <string name="incorrect_place_resultcode">ResultCode incorrecte a SelectPlace</string>
+    <string name="user_interaction_cancelled">La interacció de l\'usuari s\'ha cancel·lat. Vaja!</string>
+    <string name="settings_inadequate">La configuració de la ubicació no és adequada</string>
+    <string name="place_picked">Place Picked</string>
+    <string name="sign_up_description_post">Descripció del comentari</string>
+    <string name="help">Ajuda</string>
+    <string name="register">Registre</string>
+    <string name="msg_token_fmt">token message</string>
+    <string name="update_profile">Actualitza el perfil</string>
+    <string name="change_password">Canviar la contrasenya</string>
+    <string name="change_email">Canviar e-mail</string>
+    <string name="modify_email">Modifiqueu el vostre correu electrònic</string>
+    <string name="modify_password">Modifiqueu la contrasenya</string>
+    <string name="title_post">Títol</string>
+    <string name="join_our_community">Join our Community</string>
+    <string name="join_us">Uneix-te a nosaltres</string>
+    <string name="moreInfo_terms_policy"><![CDATA[Per més informació consulteu els nostres \nTermes & Política de privacitat]]></string>
+
+    <string-array name="pref_theme_entries">
+        <item>Light</item>
+        <item>DarK</item>
+    </string-array>
+
+    <string-array name="pref_theme_values">
+        <item>light</item>
+        <item>darK</item>
+    </string-array>
+
+    <string-array name="pref_map_style_entries">
+        <item>Per defecte</item>
+        <item>Fosc</item>
+    </string-array>
+
+    <string-array name="pref_map_style_values">
+        <item>default</item>
+        <item>dark</item>
+    </string-array>
+
+    <string-array name="pref_map_view_entries">
+        <item>Normal</item>
+        <item>Satèl·lit</item>
+        <item>Hybrid</item>
+        <item>Terreny</item>
+    </string-array>
+
+    <string-array name="pref_map_view_values">
+        <item>normal</item>
+        <item>satellite</item>
+        <item>hybrid</item>
+        <item>terrain</item>
+    </string-array>
+
+    <string-array name="pref_language_entries">
+        <item>Català</item>
+        <item>Anglés</item>
+        <item>Castellá</item>
+        <item>Del meu dispositiu</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item>ca</item>
+        <item>en</item>
+        <item>es</item>
+        <item/>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="registering">Registràn-se</string>
+    <string name="go_back">Tornar</string>
+    <string name="followers">Seguidors</string>
+    <string name="posts">Comentaris</string>
+    <string name="follow">Seguir</string>
+    <string name="post">Comentar</string>
+    <string name="properties">Propietats</string>
+    <string name="contact">Contacte</string>
+    <string name="signing_up">Inscrivint-se</string>
+    <string name="already_have_an_account">Ja tens un compte?</string>
+    <string name="company_data">Dades de la companyia</string>
+    <string name="this_will_help_us_to_verify_the_site">Això ens ajudarà a verificar el lloc</string>
+    <string name="company_name">Nom de la companyía</string>
+    <string name="company_cif">Companyia CIF</string>
+    <string name="next">Següent</string>
+    <string name="new_healthsite">Nova HealthSite</string>
+    <string name="we_need_your_help_to_build_our_database_of_healthsites">Necessitem la seva ajuda per construir la nostra\nbase de dades de healthsites</string>
+    <string name="get_started">Començar</string>
+    <string name="company_contact">Contacte de la companyia</string>
+    <string name="help_others_to_find_you_in_multiple_ways">Ajuda als altres a trobar-te de múltiples formes</string>
+    <string name="website">Website</string>
+    <string name="web_mail">Web mail</string>
+    <string name="phone_number">Teléfon</string>
+    <string name="healthsite_data">Dades de la HealthSite</string>
+    <string name="name">Nom</string>
+    <string name="slogan">Slogan</string>
+    <string name="healthsite_definition">Definició de la HealthSite</string>
+    <string name="is_a_place_where_i_can_buy_food_and_or_drinks">És un lloc on puc comprar menjar i / o begudes?</string>
+    <string name="store">Botiga</string>
+    <string name="is_a_place_where_i_can_eat">És un lloc on puc menjar?</string>
+    <string name="restaurant_food_service">Restaurant / Servei de menjar</string>
+    <string name="this_categories_will_help_us_to_categorize_nthe_site_according_its_services">Aquestes categories ens ajudaran a classigicar el lloc d\'acord als seus serveis</string>
+    <string name="add_a_place_and_a_representative_image">Afegeix un lloc i una imatge representativa</string>
+    <string name="we_recommend_to_pick_the_company_logo_nto_assure_the_site_more_recognition">Recomendamos elegir el logo de la compañía, para asegurar que el sitio sea más reconocido</string>
+    <string name="healthsite_properties">Propietats de la HealthSite</string>
+    <string name="vegan">Vegana</string>
+    <string name="vegetarian">Vegetariana</string>
+    <string name="ecologic">Ecològica</string>
+    <string name="free_gluten">Free Gluten</string>
+    <string name="free_lactose">Free Lactosa</string>
+    <string name="select_the_properties_that_will_define_the_site_attributes_nfor_instance_the_site_has_vegan_offerings">Seleccioneu les propietats que defineixen millor la HealthSite. Per exemple, el lloc té ofertes "veganes"</string>
+    <string name="finishing_the_register">Acabant el registre</string>
+    <string name="thank_you_for_believing_in_this_project">Gràcies per creure en aquest projecte</string>
+    <string name="address">Adreça</string>
+    <string name="websiteCap">WebSite</string>
+    <string name="webmail">WebMail</string>
+    <string name="enter_your_email">Introdueix el teu email</string>
+    <string name="custom">Personalitzat</string>
+    <string name="enter_your_gender">Introdueix el teu gènere</string>
+    <string name="enter_your_name">Introdueix el teu nom</string>
+    <string name="change_location">Canvia la ubicació</string>
+    <string name="select">Seleccionar</string>
+    <string name="type_your_comment">Escriu un comentari</string>
+    <string name="enter_your_surname">Introdueix el teu cognom</string>
+    <string name="use_the_map_to_pick_a_location_where_is_supposed_to_be_your_healthsite">Utilitza el mapa per triar el lloc on s\'ubica la nova HealthSite.</string>
+    <string name="when_s_your_birthday">Quan és el teu anniversari?</string>
+    <string name="providing_your_date_of_birth_helps_us_to_improve_nthe_application_experience">Proporcionar la seva data de naixement ens ajuda a millorar l\'experiència de l\'aplicació.</string>
+    <string name="what_s_your_email_address">Quin és el teu email?</string>
+    <string name="enter_your_email_address_to_connect_with_your_account">Introdueix la teva adreça de correu electrònic per connectar-te amb el teu compte</string>
+    <string name="without_gluten">Sense Gluten</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="verified">Verificat</string>
+    <string name="first_name">Nom</string>
+    <string name="surname">Cognom</string>
+    <string name="date_of_birth">Data de naixement</string>
+    <string name="gender">Gènere</string>
+    <string name="what_gender_are_you">Amb quin dels gèneres\nt\'identifiques més?</string>
+    <string name="feel_free_to_choose_even_you_can_use_the_custom_option">Sent-te lliure d\'elegir, fins i tot podeu\nutilitzar l\'opció personalitzada</string>
+    <string name="providing_your_gender_helps_us_to_improve_our_application_experience">Proporcionar el seu gènere ens ajuda\na millorar l\'experiència d\'usuari</string>
+    <string name="join_healthsites">Uneixe-te a HealthSites</string>
+    <string name="we_ll_help_you_create_an_account_in_a_few_easy_steps">T\'ajudarem a crear un compte en pocs passos</string>
+    <string name="following">Seguint</string>
+    <string name="what_s_your_name">Com et dius?</string>
+    <string name="using_your_real_name_makes_it_easier_for_others_nto_recognise_you">Utilitzar el teu nom real fa més fàcil que\nels altres et reconeguin</string>
+    <string name="create_a_password">Crea una contrasenya</string>
+    <string name="enter_a_combination_of_at_least_six_numers_or_letters">Introduïu almenys una combinació\nde sis caràcters o números</string>
+    <string name="confirm_password">Confirmar la contrasenya</string>
+    <string name="for_more_security_add_capital_letters_numbers_punctuation_marks_or_enter_a_frase">Per a més seguretat, afegiu lletres majúscules, minúscules, números, signes de puntuació\no introduïu una frase</string>
+    <string name="finishing_signing_up">Acabant el registre</string>
+    <string name="sign_up">Registra\'t</string>
+    <string name="create_a_username">Crea un nom d\'usuari</string>
+    <string name="this_will_be_how_other_users_will_see_you">Així és com et veuran la resta d\'usuaris</string>
+    <string name="username">Nom d\'usuari</string>
+    <string name="update_your_email">Actualiza el teu email</string>
+    <string name="cancel">cancel·lar</string>
+    <string name="ok">ok</string>
+    <string name="email_invalid">Email invàlid</string>
+    <string name="update_your_male">Actualiza el teu gènere</string>
+    <string name="male">Home</string>
+    <string name="female">Dona</string>
+    <string name="update_your_name">Actualiza el teu nom</string>
+    <string name="how_was_your_experience">Com ha estat la teva experiència?</string>
+    <string name="choose_to_continue">Tria per continuar</string>
+    <string name="profile">Perfil</string>
+    <string name="update_gender_failure">Actualizació del gènere fallida</string>
+    <string name="profile_data_load_failure">Carga dades perfil fallida</string>
+    <string name="username_already_taken">El nom d\'usuari ja està ocupat</string>
+    <string name="healthsite_register_ok">Registre HealthSite correcte</string>
+    <string name="healthsite_register_ko">Registre HealthSite fallit</string>
+    <string name="healthsite_image_upload_ok">Carga imatge HealthSite correcta</string>
+    <string name="healthsite_image_upload_ko">Carga imatge HealthSite fallida</string>
+    <string name="restaurant_and_store"><![CDATA[Restaurant & Botiga]]></string>
+    <string name="use_this_location">¿Utilitzar aquest lloc?</string>
+    <string name="recovery_email_send_succesfully">L\'email de recuperació s\'ha enviat amb èxit</string>
+    <string name="recovery_email_send_failed">L\'enviament de l\'email de recuperació ha fallat</string>
+    <string name="options">Opcions</string>
+    <string name="choose_method">Tria el mètode</string>
+    <string name="authentication_failed">Autenticació fallida</string>
+    <string name="user_interaction_was_cancelled">La interacció amb el usuari ha estat cancel·lada</string>
+    <string name="update_username_failure">Actualizació usuari fallida</string>
+    <string name="update_name_failure">Actualizació nomfallida</string>
+    <string name="update_surname_failure">Actualizació cognom fallida</string>
+    <string name="update_email_failure">Actualizació email fallida</string>
+    <string name="uploaded_photo_successfully">Foto pujada correctamente</string>
+    <string name="uploaded_photo_failure">Carga foto fallida</string>
+    <string name="map_options">Opcions del mapa</string>
+    <string name="place_picker">Place Picker</string>
+    <string name="latlong">latlong</string>
+    <string name="check_your_connection">Revisa la teva connexió</string>
+    <string name="user_register_ok">Registre usuari correcte</string>
+    <string name="user_register_ko">Registre usuari fallit</string>
+    <string name="sending_email">Enviant email</string>
+    <string name="recover_password">Recupera la contrasenya</string>
+    <string name="enter_your_email_and_we_will_send_you_a_reset_one">Introdueix el teu email i t\'enviarem un de restabliment</string>
+    <string name="send">Enviar</string>
+    <string name="or">- o -</string>
+    <string name="back_to_login">Torna a l\'inici</string>
+    <string name="logging">Entrant</string>
+    <string name="forgotten_password">No recordes la contrasenya?</string>
+    <string name="filters">Filtres</string>
+    <string name="language">Idioma</string>
+    <string name="preference_language_summary">Hi ha dues maneres de canviar l\'idioma de l\'aplicació. Utilitzant aquesta preferència d\'aplicació interna o bé en l\'idioma del dispositiu mòbil</string>
+    <string name="keep_me_logged">Manten-me connectat</string>
+    <string name="preference_keep_me_logged">Si està activat, mantindreu la sessió iniciada quan sortiu de l\'aplicació</string>
+    <string name="send_feedback">Enviar feedback</string>
+    <string name="preference_send_feedback_summary">Ajúda\'ns a millorar la nostra aplicació i la seva experiència d\'usuari mitjançant l\'enviament de dades anònimes, sempre de forma transparent per a l\'usuari</string>
+    <string name="preference_website_summary">Per obtenir més informació visita healthsites.info</string>
+    <string name="log_out">Tancar sessió</string>
+    <string name="privacy_policy">Política de privacitat</string>
+    <string name="change_username">Canviar usuari</string>
+    <string name="preference_change_username_summary">Modifica el teu nom d\'usuari</string>
+    <string name="share">Compartir</string>
+    <string name="preference_share_summary">Feu que altres persones coneguin aquest lloc</string>
+    <string name="report">Informar</string>
+    <string name="preference_report_summary">Envieu-nos una notificació per informar d’aquest lloc, si el considereu inadequat</string>
+    <string name="map_style">Estil del mapa</string>
+    <string name="preference_map_style_summary">Establiu l\'estil predeterminat per al vostre mapa</string>
+    <string name="map_view">Vista del mapa</string>
+    <string name="preference_map_view_summmary">Establiu la visualització predeterminada per al vostre mapa</string>
+    <string name="hide_my_location_button">Amaga el botó "La meva ubicació"</string>
+    <string name="preference_hide_my_location_button_summary">Amaga el botó de la meva ubicació de la part superior dreta</string>
+    <string name="show_zoom_controls">Mostra els controls de zoom</string>
+    <string name="preference_show_zoom_controls_summary">Fes visible els controls de zoom</string>
+    <string name="enable_location_updates">Activa les actualitzacions d\'ubicació</string>
+    <string name="preference_enable_location_updates">La càmera us seguirà pel mapa</string>
+    <string name="customization">Personalització</string>
+    <string name="credentials">Credencials</string>
+    <string name="configuration">Configuració</string>
+    <string name="search">Buscar</string>
+    <string name="account">Compte</string>
+    <string name="thank_you_for_your_feedback">Gràcies pel teu feedback</string>
+    <string name="your_message">El teu missatge</string>
+    <string name="we_would_love_to_hear_what_s_working_nand_how_we_can_do_better">Ens agradaria saber què funciona i de\nquina manera podem millorar</string>
+    <string name="how_are_we_doing">Com ho estem fent?</string>
+    <string name="contact_us">Contacta\'ns</string>
+    <string name="support">Suport</string>
+    <string name="intro_filters">En aquesta pantalla podràs seleccionar les propietas que t\'interessin filtrar en el mapa. Per exemple, si vols que només apareguin els restaurants pitja a la respectiva targeta. Si a més a més vols que siguin vegans, doncs prem a la corresponent. D\'aquesta manera el mapa et mostrarà els restaurants vegans més a prop teu.</string>
+    <string name="intro_myhealthsites">Aquí podràs accedir ràpidament al perfil de les HealthSites què segueixis. Set mostrarà un a llista i tindràs a la teva disposició un buscador.</string>
+    <string name="intro_profile">Aquest serà el teu perfil on podràs consultar i modificar les teves dades. També dispondràs a la part superior dreta d\'un menú d\'ajustos sobre el teu compte i altres paràmetres generals de l\'aplicació.</string>
+</resources>
