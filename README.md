@@ -7,7 +7,12 @@ In addition, you can leave comments on each of the profiles of the so-called Hea
 
 Users who want to eat healthy or buy specific products will be able to locate the nearest HealthSites through the app and decide which one is the right one for them. Also, you can follow the HealthSites to have your favorites listed in the "My HealthSites" section, which serves as a gateway to view certain information, unfollow, make comments and easily access each HealthSite's profile.
 
-<img src="assets/screen-hero.png" width="200"/><img src="assets/custom-window.png" width="200"/><img src="assets/filters.png" width="200"/><img src="assets/comments-healthsite.png" width="200"/>
+<div style="text-align: center;">
+  <img src="assets/screen-hero.png" width="200"/>
+  <img src="assets/custom-window.png" width="200"/>
+  <img src="assets/filters.png" width="200"/>
+  <img src="assets/comments-healthsite.png" width="200"/>
+</div>
 
 Furthermore, this project has a web page developed in Nodejs, and to get more information you can visit the site or the corresponding repository:
 * http://healthsites.herokuapp.com/
