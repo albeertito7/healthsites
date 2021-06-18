@@ -7,7 +7,7 @@ In addition, you can leave comments on each of the profiles of the so-called Hea
 
 Users who want to eat healthy or buy specific products will be able to locate the nearest HealthSites through the app and decide which one is the right one for them. Also, you can follow the HealthSites to have your favorites listed in the "My HealthSites" section, which serves as a gateway to view certain information, unfollow, make comments and easily access each HealthSite's profile.
 
-<div style="text-align: center;">
+<div align="center" style="margin: 10px 0px 10px 0px;">
   <img src="assets/screen-hero.png" width="200"/>
   <img src="assets/custom-window.png" width="200"/>
   <img src="assets/filters.png" width="200"/>
