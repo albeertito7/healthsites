@@ -18,6 +18,10 @@ Furthermore, this project has a web page developed in Nodejs, and to get more in
 * http://healthsites.herokuapp.com/
 * https://github.com/albeertito7/HealthSitesWeb
 
+<div align="center" style="margin: 10px 0px 10px 0px !important;">
+  <img src="assets/healthsites-web.png" />  
+</div>
+
 ## Requirements
 
 * Android Studio
